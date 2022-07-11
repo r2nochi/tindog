@@ -144,21 +144,6 @@ p {
     padding-top: 41px;
 }
 
-/* Media */
-
-@media (max-width: 1284px) {
-    .img-phone {
-        position: static;
-        transform: rotate(0);
-    }
-}
-
-@media (max-width: 991px) {
-    #title {
-        text-align: center;
-    }
-}
-
 /* CTA */
 
 #cta {
@@ -193,4 +178,27 @@ p {
 
 .fa-envelope:hover {
     color: #000
+}
+
+/* Media */
+
+@media (max-width: 1284px) {
+    .img-phone {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 554px) {
+    .img-phone {
+        position: static;
+        transform: rotate(0);
+        width: 85%;
+    }
 }
