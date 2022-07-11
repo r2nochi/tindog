@@ -1,0 +1,196 @@
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 8%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Barra de navegación */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/* Botones de Download */
+
+.btn-download {
+    margin: 5% 3% 5% 0;
+}
+
+/* Imagen Superior iPhone-Dog */
+
+.img-phone {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+}
+
+.fa-solid {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fa-solid:hover {
+    color: red;
+}
+
+.h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.div-features {
+    padding: 0 5%;
+    text-align: center;
+}   
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.img-testimonials {
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.img-press {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Price */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.deck-price {
+    padding: 3% 2%;
+}
+
+.card-header {
+    padding-top: 17px;
+}
+
+.btn-space {
+    padding-top: 41px;
+}
+
+/* Media */
+
+@media (max-width: 1284px) {
+    .img-phone {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.h3-cta {
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15% 5%;
+}
+
+.icon-footer {
+    padding: 0 1% 0 1%;
+}
+
+.fa-envelope {
+    color: #000000;
+}
+
+.fa-envelope:hover {
+    color: #000
+}
